@@ -1,0 +1,15 @@
+/* CSS pour le logo */
+.logo {
+    height: 55px; /* Définissez la hauteur du logo */
+    width: auto;  /* Garder le ratio original du logo */
+    object-fit: contain; /* Assure que l'image conserve ses proportions */
+    border-radius: 25px;
+  }
+  
+  /* Ajustements pour les écrans plus petits */
+  @media (max-width: 768px) {
+    .logo {
+      height: 30px; /* Taille plus petite pour les écrans plus petits */
+    }
+  }
+  
